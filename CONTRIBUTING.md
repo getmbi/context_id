@@ -15,7 +15,7 @@ First, make sure you have Elixir installed on your machine.
 - Clone your fork to your local machine:
 
   ```bash
-  git clone https://github.com/your_username/contextual_id.git
+  git clone https://github.com/your_username/context_id.git
   ```
 
 - Make sure you're in the right directory:
