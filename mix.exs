@@ -3,7 +3,7 @@ defmodule ContextID.MixProject do
 
   def project do
     [
-      app: :contextual_id,
+      app: :context_id,
       version: "0.1.0",
       elixir: "~> 1.0",
       deps: deps(),
