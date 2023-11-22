@@ -24,12 +24,12 @@ These examples are simply meant to illustrate the flexibility and utility of the
 
 
 ## Installation
-Add `contextual_id` to your list of dependencies in `mix.exs`:
+Add `context_id` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:contextual_id, "~> 0.1.0"}
+    {:context_id, "~> 0.1.0"}
   ]
 end
 ```
@@ -68,8 +68,8 @@ To set up global configuration, add the following lines to your application's co
 
 ```elixir
 # In config/config.exs
-config :contextual_id, :default_prefix, "your_default_prefix"
-config :contextual_id, :default_length, your_default_length
+config :context_id, :default_prefix, "your_default_prefix"
+config :context_id, :default_length, your_default_length
 ```
 
 Replace `"your_default_prefix"` with the default prefix string you wish to use, and `your_default_length` with the default length (as an integer) for the IDs.
@@ -77,8 +77,8 @@ Replace `"your_default_prefix"` with the default prefix string you wish to use, 
 For example, setting:
 
 ```elixir
-config :contextual_id, :default_prefix, "acct"
-config :contextual_id, :default_length, 12
+config :context_id, :default_prefix, "acct"
+config :context_id, :default_length, 12
 ```
 
 means that `ContextID.generate_id()` will produce IDs like `"acct_1a2b3c4d5e6f7a8b9c0d"` by default, unless you specify different arguments when calling the function.
