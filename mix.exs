@@ -4,7 +4,7 @@ defmodule ContextID.MixProject do
   def project do
     [
       app: :context_id,
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.0",
       deps: deps(),
       name: "ContextID",
@@ -23,7 +23,7 @@ defmodule ContextID.MixProject do
   defp package do
     [
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/hmbradley/context_id"}
+      links: %{"GitHub" => "https://github.com/getmbi/context_id"}
     ]
   end
 
